@@ -8,10 +8,13 @@ I focus on writing clean queries, understanding the logic, and linking problems 
 - SELECT
 - Filtering (WHERE, AND, OR)
 - String functions
+- Joins
 
 ## Next
-- Joins
-- Aggregations
-- Window functions
+- Basic Aggregate Functions
+- Sorting and Grouping
+- Advanced Select and Joins
+- Subqueries
+- Advanced String Functions / Regex / Clause
 
 Each file includes the problem, my approach, and the final SQL query.
