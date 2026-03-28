@@ -2,6 +2,11 @@
 Problem: Customers Who Bought All Products
 Link: https://leetcode.com/problems/customers-who-bought-all-products/
 
+Description:
+- Given Customer table with customer_id and product_key
+- Given Product table with all available products
+- Find customers who purchased ALL products in the Product table
+
 Approach (Optimal - GROUP BY):
 - Group records by customer_id
 - Count distinct products purchased by each customer

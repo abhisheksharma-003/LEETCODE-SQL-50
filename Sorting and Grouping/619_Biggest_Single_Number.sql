@@ -2,6 +2,12 @@
 Problem: Biggest Single Number
 Link: https://leetcode.com/problems/biggest-single-number/
 
+Description:
+- Given a table MyNumbers containing numbers, some numbers may appear multiple times.
+- A "single number" is a number that appears exactly once.
+- Return the largest single number.
+- If no number appears once, return NULL.
+
 Approach:
 - Group numbers using GROUP BY num
 - Count frequency using COUNT(*)

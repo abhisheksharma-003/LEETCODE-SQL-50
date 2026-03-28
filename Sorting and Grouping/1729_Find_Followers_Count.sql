@@ -2,6 +2,12 @@
 Problem: Find Followers Count
 Link: https://leetcode.com/problems/find-followers-count/
 
+Description:
+- Given a Followers table where each row represents a follower relationship
+- Count how many followers each user has
+- Return user_id and followers_count
+- Sort the result by user_id
+
 Approach:
 - Group records by user_id
 - Count number of followers using COUNT(*)
