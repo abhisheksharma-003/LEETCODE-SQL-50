@@ -2,6 +2,12 @@
 Problem: Employee Bonus
 Link: https://leetcode.com/problems/employee-bonus/
 
+Description:
+- Given Employee and Bonus tables
+- Each employee may or may not have a bonus
+- Return employees whose bonus is less than 1000 OR who do not have a bonus
+- Include employee name and bonus in the result
+
 Approach:
 - Use LEFT JOIN to include all employees
 - Attach bonus data from Bonus table

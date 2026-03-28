@@ -2,6 +2,15 @@
 Problem: Students and Examinations
 Link: https://leetcode.com/problems/students-and-examinations/
 
+Description:
+- Given Students, Subjects, and Examinations tables
+- Each student can attend multiple exams for different subjects
+- Some student-subject combinations may not exist in Examinations
+- For every student and subject pair:
+  - Count how many exams the student attended
+- Include pairs even if the count is 0
+- Return student_id, student_name, subject_name, attended_exams
+
 Approach:
 - Generate all possible student-subject pairs using CROSS JOIN
 - Use LEFT JOIN to attach examination records

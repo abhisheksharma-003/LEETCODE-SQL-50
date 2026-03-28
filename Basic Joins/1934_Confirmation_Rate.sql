@@ -2,6 +2,15 @@
 Problem: Confirmation Rate
 Link: https://leetcode.com/problems/confirmation-rate/
 
+Description:
+- Given Signups and Confirmations tables
+- Each user may send multiple confirmation requests
+- A confirmation can be 'confirmed' or 'timeout'
+- For each user:
+  - Calculate confirmation rate = confirmed / total requests
+- If a user has no confirmations → rate = 0
+- Return user_id and confirmation_rate rounded to 2 decimal places
+
 Approach:
 - Use LEFT JOIN to include all users (even without confirmations)
 - Count total confirmation requests

@@ -2,6 +2,13 @@
 Problem: Managers with at Least 5 Direct Reports
 Link: https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
 
+Description:
+- Given the Employee table, each employee may report to a manager.
+- The column `managerId` represents the manager of an employee.
+- A manager is defined as an employee who has direct reports.
+- Find managers who have at least 5 direct reports.
+- Return the names of such managers.
+
 Approach:
 - Use SELF JOIN on Employee table
 - Treat:
